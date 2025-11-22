@@ -1,0 +1,200 @@
+/* VisualBook - Responsive Styles */
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .auth-page .card-body {
+        padding: 1.5rem;
+    }
+
+    .profile-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .post-actions {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .post-action {
+        justify-content: center;
+    }
+
+    .stories-container {
+        gap: 0.5rem;
+    }
+
+    .story {
+        width: 60px;
+    }
+
+    .story-avatar {
+        width: 45px;
+        height: 45px;
+    }
+
+    .friend-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .friend-avatar {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .group-card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.75rem;
+        padding-left: 0.75rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .stories-container {
+        gap: 1.5rem;
+    }
+
+    .story {
+        width: 90px;
+    }
+
+    .story-avatar {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Navigation adjustments for mobile */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        margin-top: 1rem;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0;
+    }
+}
+
+/* Sidebar adjustments for mobile */
+@media (max-width: 767.98px) {
+
+    .row>.col-lg-3,
+    .row>.col-lg-6,
+    .row>.col-lg-8,
+    .row>.col-lg-4 {
+        margin-bottom: 1.5rem;
+    }
+
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .d-flex.justify-content-between.align-items-center {
+        align-items: flex-start;
+    }
+}
+
+/* Modal adjustments for mobile */
+@media (max-width: 575.98px) {
+    .modal-dialog {
+        margin: 0.5rem;
+    }
+
+    .modal-content {
+        border-radius: var(--border-radius);
+    }
+}
+
+/* Profile page adjustments */
+@media (max-width: 767.98px) {
+    .profile-header .row.align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-header .col-md-9 {
+        margin-top: 1rem;
+    }
+
+    .nav-tabs .nav-link {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Post creation form adjustments */
+@media (max-width: 575.98px) {
+    .post-creation .d-flex.justify-content-between {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .post-creation .btn {
+        flex: 1 0 auto;
+        min-width: calc(50% - 0.5rem);
+    }
+}
+
+/* Group cards adjustments */
+@media (max-width: 767.98px) {
+    .group-card .row>div {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Friend requests adjustments */
+@media (max-width: 575.98px) {
+    .notification-actions {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .notification-actions .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
